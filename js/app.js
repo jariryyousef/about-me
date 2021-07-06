@@ -196,13 +196,20 @@ for (let i = 0; i <= 5; i++) {
     }
         // console.log(juice.length);
     }
-    alert('the corect answer is orange, apple, beet, prune, tomato,Pomegranate,Grapefruit ');
-    alert('thank you for your time ' + username +` do you have a score ${score}/7`);
-    if (counter11<=5){
-            console.log('done');
-        
-        }
+   
+
+    if ((input=='orange'||input=='apple'|| input=='bannana' || input == 'Beet' || input=='Prune' || input=='Tomato' ||input=='Pomegranate' ||input=='Grapefruit')==true) {
+                    
+        break;
+    }
+     
+    
 }
+alert('the corect answer is orange, apple, beet, prune, tomato,Pomegranate,Grapefruit ');
+alert('thank you for your time ' + username +` do you have a score ${score}/7`);
+
+
+
 // if (juice=='orange'||juice=='apple'){
 //     alert('thats rghit');
 //     score++;
