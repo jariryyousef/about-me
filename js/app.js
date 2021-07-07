@@ -38,6 +38,7 @@ switch (drink) {
 }
 Q1();
 
+function Q2(){
 let smoke = prompt('Do you think I smoke');
 smoke=smoke.toLowerCase();
 //console.log(smoke);
@@ -63,6 +64,9 @@ switch (smoke) {
 
 
 }
+}
+Q2();
+function Q3(){
 
 let cat= prompt('Do you think I own a cat?');
 cat=cat.toLowerCase();
@@ -89,7 +93,10 @@ switch (cat) {
 
 
 }
+}
+Q3();
 
+function Q4(){
 let city= prompt('Do you think I live in Irbid??');
 city=city.toLowerCase();
 //console.log(city);
@@ -115,7 +122,10 @@ switch (city) {
 
 
 }
+}
+Q4();
 
+function Q5(){
 let age= prompt('Do you think I am 30 years old?');
 age=age.toLowerCase();
 switch (age) {
@@ -140,6 +150,10 @@ switch (age) {
 
 
 }
+}
+Q5();
+
+function Q6(){
 let number = prompt('guess a number betwen 1 and 10')
 let counter=0;
 for (let i = 0; i< 3; i++) {
@@ -170,8 +184,12 @@ if (counter>3){
     alert('the corect number is 8');
 
 }
+}
+Q6();
 
-let counter1=0;
+
+function Q7(){
+// let counter1=0;
 let juice = ['orange', 'appale', 'Beet', 'Prune', 'Tomato', 'Pomegranate', 'Grapefruit'];
 // console.log(juice);
 
@@ -207,6 +225,8 @@ for (let i = 0; i <= 5; i++) {
      
     
 }
+}
+Q7();
 alert('the corect answer is orange, apple, beet, prune, tomato,Pomegranate,Grapefruit ');
 alert('thank you for your time ' + username +` do you have a score ${score}/7`);
 
