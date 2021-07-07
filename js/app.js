@@ -8,7 +8,7 @@ while (!username) {
 }
 alert('hello '+ username +' lets play my guessing game');
 
-
+function Q1(){
 let drink = prompt('Do I like to drink coffee');
 drink=drink.toLowerCase();
 //console.log(drink);
@@ -35,6 +35,8 @@ switch (drink) {
 
 
 }
+}
+Q1();
 
 let smoke = prompt('Do you think I smoke');
 smoke=smoke.toLowerCase();
